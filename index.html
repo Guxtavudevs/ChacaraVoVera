@@ -1,0 +1,100 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chácara Boa Vida</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">Chácara Canaan Martins</h1>
+      <nav class="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#fotos">Fotos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <h2>Seu refúgio no campo — conforto, natureza e tranquilidade</h2>
+          <p class ="info">Aluguel para finais de semana e eventos especiais. Desfrute de piscina, churrasqueira equipada, ampla área externa e um pôr do sol inesquecível para momentos de relaxamento e celebração.</p>
+          <a class="btnn" href="#contato">Reserve agora</a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=60" alt="Chácara"/>
+      </div>
+    </section>
+
+    <section id="sobre" class="sobre container">
+      <h3>Sobre a chácara</h3>
+      <p>Perfeita para lazer e descanso, com piscina, mesa de bilhar, churrasqueira e amplo espaço ao ar livre. Ideal para encontros com família e amigos, oferecendo conforto e diversão. Venha aproveitar momentos especiais com toda tranquilidade!</p>
+      <div class="cards">
+        <div class="card"><strong>Piscina</strong><span>Adulto e infantil</span></div>
+        <div class="card"><strong>Churrasqueira</strong><span>Área coberta</span></div>
+        <div class="card"><strong>Estacionamento</strong><span>Privativo</span></div>
+      </div>
+    </section>
+
+    <section id="fotos" class="fotos container">
+      <h3>Galeria de fotos</h3>
+      <div class="gallery">
+        <img src="./imgs/piscina.jpeg" alt="Piscina"/>
+        <img src="./imgs/WhatsApp Image 2025-08-11 at 09.17.14.jpeg" alt="Churrasqueira"/>
+        <img src="./imgs/parte de fora.jpeg" alt="Quartos"/>
+        <img src="./imgs/sala.jpeg" alt="Área externa"/>
+        <img src="./imgs/parte de fora 2.jpeg" alt="Pôr do sol"/>
+        <img src="./imgs/entrada.jpeg" alt="Sala"/>
+        <img src="./imgs/sala.jpeg" alt="Área externa"/>
+        <img src="./imgs/parte de fora 2.jpeg" alt="Pôr do sol"/>
+        <img src="./imgs/quarto2.jpeg" alt="Sala"/>
+      </div>
+    </section>
+
+    <section id="localizacao" class="localizacao">
+    <h2>📍 Localização</h2>
+    <div class="mapa-container">
+        <iframe 
+       src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1088.7303353621226!2d-47.5560352162256!3d-23.386851765950453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1754914166546!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            width="100%" 
+            height="250" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+    <section id="contato" class="contato container">
+      <h3>Contato e reservas</h3>
+      <p>Telefone/WhatsApp: <strong>+55 (00) 9 0000-0000</strong></p>
+      <form class="form">
+        <label>Nome <input type="text" name="nome" required></label>
+        <label>Data <input type="date" name="data" required></label>
+     <label for="msg">Mensagem</label>
+<textarea id="msg" name="msg" rows="3"></textarea>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="ano"></span> Chácara Boa Vida — Todos os direitos reservados</p>
+    </div>
+  </footer>
+  <a id="whatsapp-btn" class="whatsapp-btn" href="https://wa.me/55PHONENUMBER?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20reservar" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+ <img src="./imgs/social.png" alt="WhatsApp" style="width: 28px; height: 28px;">
+</a>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="close-lightbox" aria-label="Fechar">×</button>
+    <img alt=""/>
+  </div>
+
+  <script src="./scirpt.js"></script>
+</body>
+</html>
